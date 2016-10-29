@@ -66,7 +66,6 @@ $(function(){
          $('.typed-cursor').hide();
          $("#names-input").fadeIn(1000);
          $("#play").fadeIn(1000);
-         $("#next").fadeIn(1000);
          $("#names-input").focus();
        },
      });
@@ -128,7 +127,9 @@ function nextPerson(){
     $(".greetings").html("Seems like you aren't in our list yet. Can you sign up at <a href=\"bit.ly/wcssmembers\">bit.ly/wcssmembers</a>? Thanks");
   }
   $('#names-input').val("");
-  console.log(attendance);
+  if (attendance.length != 0){
+    $("#next").fadeIn(1000);
+  }
 };
 
 $("#names-input").keydown(function(event){
