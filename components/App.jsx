@@ -23,11 +23,11 @@ function App({ children, routes }) {
 
   return(
     <div style={{maxWidth: '500px'}}>
-      <h2 style={{marginBottom: 0}}>React for GitHub Pages</h2>
-      <a href="https://github.com/rafrex/react-github-pages"
+      <h2 style={{marginBottom: 0}}>Attendance Sign Up Sheet</h2>
+      <a href="http://wentworthcss.club"
         style={{marginBottom: '1em', display: 'block'}}
       >
-        https://github.com/rafrex/react-github-pages
+        CSS@WIT of ACM
       </a>
       <nav>
         {generateMapMenu()}
