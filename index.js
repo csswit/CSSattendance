@@ -74,7 +74,7 @@ function parseRedirectQuery(query, replace) {
 const gitHubRepoName = 'CSSattendance';
 // The domain for your site
 // SET THIS: e.g. http://subdomain.example.tld, or http://www.example.tld
-const domain = 'http://csswit.github.io';
+const domain = 'http://csswit.github.io/CSSattendance';
 function redirectToDomain() {
   window.location.replace(domain);
 }
