@@ -124,7 +124,7 @@ function nextPerson(){
   }
   else {
     attendance.push(name);
-    $(".greetings").html("Seems like you aren't in our list yet. Can you sign up at <a href=\"bit.ly/wcssmembers\">bit.ly/wcssmembers</a>? Thanks");
+    $(".greetings").html("Seems like you aren't in our list yet. Can you sign up at <a href=\"http://bit.ly/wcssmembers\">bit.ly/wcssmembers</a>? Thanks");
   }
   $('#names-input').val("");
   if (attendance.length != 0){
